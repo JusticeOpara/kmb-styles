@@ -35,10 +35,10 @@ const Contact = () => {
             Tel: <span className="text-gray-500">+1 800 123 1234</span>
           </p>
           <p className=" text-gray-800">
-            Email: <span className="text-gray-500">admin@forever.com</span>
+            Email: <span className="text-gray-500">admin@kmb.com</span>
           </p>
 
-          <p className="text-gray-500">Careers at Forever</p>
+          <p className="text-gray-500">Careers at KMB</p>
           <p className="text-gray-500">
             Learn more about our teams and job openings.
           </p>

@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="">
           <img src={assets.logo} alt="" className="mb-5 w-32 " />
           <p className="w-full sm:w-2/3 text-gray-600">
-            Shop with Forever and experience the convenience of online shopping
+            Shop with   KMB and experience the convenience of online shopping
             like never before.
           </p>
         </div>
@@ -50,7 +50,7 @@ const Footer = () => {
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2024@ forever.com - All Rights Reserved
+          Copyright 2024@ KMB.com - All Rights Reserved
         </p>
       </div>
     </div>
