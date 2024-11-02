@@ -1,7 +1,7 @@
-import { Link, NavLink } from 'react-router-dom';
-import { assets } from '../assets/asset';
-import { useContext, useState } from 'react';
-import { ShopContext } from '../context/ContextShop';
+import { Link, NavLink } from "react-router-dom";
+import { assets } from "../assets/asset";
+import { useContext, useState } from "react";
+import { ShopContext } from "../context/ContextShop";
 
 const Navbar = () => {
   const [visible, setVisible] = useState(false);
@@ -9,9 +9,14 @@ const Navbar = () => {
 
   return (
     <div className="flex items-center justify-between py-5 font-medium">
-      <Link to="/">
-        <img src={assets.logo} alt="logo" className="w-36" />
+    <div className="flex items-center">
+    
+    <Link to="/">
+        <img src={assets.logo} alt="logo" className="w-20" />
       </Link>
+      <p className="font font-bold text-4xl">KBM</p>
+    </div>
+   
 
       <ul className="hidden sm:flex gap-5 text-sm text-gray-700">
         <NavLink to="/" className="flex flex-col items-center gap-1">
@@ -31,25 +36,26 @@ const Navbar = () => {
           <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" />
         </NavLink>
       </ul>
-<div>
-      <div className="flex items-center gap-6">
-        <img
-          onClick={() => {
-            setShowSearch(true);
-          }}
-          src={assets.search_icon}
-          alt=""
-          className="w-5 cursor-pointer "
-        />
-        <div className="group relative">
-          <Link to="/login">
-            <img
-              src={assets.profile_icon}
-              alt=""
-              className="w-5 cursor-pointer"
-            />
-          </Link>
-          
+
+
+      <div className="flex space-x-8 ">
+        <div className="flex items-center space-x-8">
+          <img
+            onClick={() => {
+              setShowSearch(true);
+            }}
+            src={assets.search_icon}
+            alt=""
+            className="w-5 cursor-pointer "
+          />
+          <div className="group relative">
+            <Link to="/login">
+              <img
+                src={assets.profile_icon}
+                alt=""
+                className="w-5 cursor-pointer"
+              />
+            </Link>
           </div>
         </div>
 
@@ -70,8 +76,8 @@ const Navbar = () => {
 
       {/* Sidebar menu for small screens */}
       <div
-        className={`absolute top-0 right-0 bottom-0 overflow-hidden bg-white ease-in duration-300
-             ${visible ? 'w-full' : 'w-0'}`}
+        className={`absolute top-0 right-0 bottom-0 overflow-hidden ease-in duration-300
+             ${visible ? "w-full" : "w-0"}`}
       >
         <div className="flex flex-col text-gray-600 ">
           <div
@@ -91,8 +97,8 @@ const Navbar = () => {
             className="py-2 pl-6 border"
             to="/"
           >
-            {' '}
-            HOME{' '}
+            {" "}
+            HOME{" "}
           </NavLink>
           <NavLink
             onClick={() => {
@@ -101,8 +107,8 @@ const Navbar = () => {
             className="py-2 pl-6 border"
             to="/collection"
           >
-            {' '}
-            COLLECTION{' '}
+            {" "}
+            COLLECTION{" "}
           </NavLink>
           <NavLink
             onClick={() => {
@@ -111,8 +117,8 @@ const Navbar = () => {
             className="py-2 pl-6 border"
             to="/about"
           >
-            {' '}
-            ABOUT{' '}
+            {" "}
+            ABOUT{" "}
           </NavLink>
           <NavLink
             onClick={() => {
@@ -121,8 +127,8 @@ const Navbar = () => {
             className="py-2 pl-6 border"
             to="/contact"
           >
-            {' '}
-            CONTACT{' '}
+            {" "}
+            CONTACT{" "}
           </NavLink>
         </div>
       </div>
