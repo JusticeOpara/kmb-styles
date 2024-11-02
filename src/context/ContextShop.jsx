@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { createContext, useState } from 'react';
-import { products } from '../assets/assets';
+import { products } from '../assets/asset';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 

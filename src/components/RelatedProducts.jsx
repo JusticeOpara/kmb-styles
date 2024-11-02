@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { ShopContext } from '../Context/ShopContext';
+import { ShopContext } from '../context/ContextShop';
 import { useContext, useEffect, useState } from 'react';
 import Title from './Title';
 import ProductdItem from './ProductItem';
