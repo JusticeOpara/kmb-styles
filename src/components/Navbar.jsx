@@ -14,7 +14,7 @@ const Navbar = () => {
     <Link to="/">
         <img src={assets.logo} alt="logo" className="lg:w-20 w-8" />
       </Link>
-      <p className="font font-bold lg:text-4xl ">KBM Styles</p>
+      <p className="font font-bold lg:text-4xl ">KMB Styles</p>
     </div>
    
 
