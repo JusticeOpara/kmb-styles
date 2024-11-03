@@ -12,9 +12,9 @@ const Navbar = () => {
     <div className="flex items-center">
     
     <Link to="/">
-        <img src={assets.logo} alt="logo" className="w-20" />
+        <img src={assets.logo} alt="logo" className="lg:w-20 w-8" />
       </Link>
-      <p className="font font-bold text-4xl">KBM</p>
+      <p className="font font-bold lg:text-4xl ">KBM Styles</p>
     </div>
    
 
@@ -76,7 +76,7 @@ const Navbar = () => {
 
       {/* Sidebar menu for small screens */}
       <div
-        className={`absolute top-0 right-0 bottom-0 overflow-hidden ease-in duration-300
+        className={`absolute bg-white top-0 right-0 bottom-0 overflow-hidden ease-in duration-300
              ${visible ? "w-full" : "w-0"}`}
       >
         <div className="flex flex-col text-gray-600 ">
