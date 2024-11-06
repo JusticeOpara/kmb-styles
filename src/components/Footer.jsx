@@ -26,7 +26,9 @@ const Footer = () => {
           <p className="w-full sm:w-2/3 text-gray-600">
             Shop with   KMB and experience the convenience of online shopping
             like never before.
+            
           </p>
+          
         </div>
 
         <div className="">

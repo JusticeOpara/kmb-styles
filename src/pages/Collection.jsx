@@ -131,7 +131,7 @@ const Collection = () => {
                 value={'Men-Senator'}
                 onChange={toggleCategory}
               />
-              MEN'S SENATOR 
+              MEN&apos;S SENATOR 
             </p>
             <p className="flex gap-2">
               <input

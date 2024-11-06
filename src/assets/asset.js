@@ -56,8 +56,13 @@ import p_img52 from "./p_img52.png";
 import p_img53 from "./p_img53.png";
 import p_img54 from "./p_img54.png";
 import p_img55 from "./p_img55.png";
-// import p_img56 from "./p_img56.png"
+import p_img56 from "./p_img56.png"
+import p_img57 from "./p_img57.png"
 import p_img58 from "./p_img58.png"
+import p_img59 from "./p_img59.png"
+import p_img59_1 from "./p_img59_1.png"
+import p_img60 from "./p_img60.png"
+ import p_img61 from "./p_img61.png"
 
 import logo from "./logo.png";
 import hero_img from "./hero_img.png";
@@ -881,7 +886,7 @@ export const products = [
     subCategory: "Topwear",
     sizes: ["S", "M", "L", "XL"],
     date: 1716622345448,
-    bestseller: false,
+    bestseller: true,
   },
   // {
   //   _id: 'aaaai',
@@ -1002,12 +1007,12 @@ export const products = [
   },
   {
     _id: "aaaar",
-    name: "Boys' Superhero Squad Tee",
+    name: "Men's Business Casual Slacks",
     description:
-      "An action-packed t-shirt for young superhero fans. This cotton tee features bold graphics of popular superheroes, allowing boys to showcase their favorite characters while staying comfortable during their own heroic adventures.",
+      "Sophisticated trousers that seamlessly transition from office to after-hours events. These flat-front slacks offer a sleek silhouette and are crafted from a wrinkle-resistant fabric blend for all-day polish.",
     price: 180,
     image: [p_img18, p_img22, p_img35, p_img44],
-    category: "Kids",
+    category: "Men-Shirt",
     subCategory: "Topwear",
     sizes: ["S", "M", "L", "XL"],
     date: 1716631045448,
@@ -1110,7 +1115,7 @@ export const products = [
     description:
       "Classic denim work shirt with rugged appeal, offering a lived-in look. Ideal for a casual, everyday style.",
     price: 220,
-    image: [p_img26],
+    image: [p_img55],
     category: "Men-Shirt",
     subCategory: "Winterwear",
     sizes: ["S", "M", "L", "XL"],
@@ -1123,7 +1128,7 @@ export const products = [
     description:
       "A vintage-inspired argyle knit shirt that brings a touch of class to any casual outfit. Ideal for cooler weather.",
     price: 200,
-    image: [p_img27],
+    image: [p_img56],
     category: "Men-Shirt",
     subCategory: "Topwear",
     sizes: ["S", "M", "L", "XL"],
@@ -1136,7 +1141,7 @@ export const products = [
     description:
       "A timeless outerwear piece that never goes out of style. This slim-fit denim jacket offers versatility and durability, perfect for layering over t-shirts or button-downs in cooler weather or as a stylish accent to any casual outfit.",
     price: 230,
-    image: [p_img28],
+    image: [p_img59,p_img59_1],
     category: "Men-Shirt",
     subCategory: "Winterwear",
     sizes: ["S", "M", "L", "XL"],
@@ -1149,7 +1154,7 @@ export const products = [
     description:
       "A relaxed, Cuban collar shirt that brings a retro, laid-back vibe. Perfect for both summer days and nights out",
     price: 210,
-    image: [p_img29],
+    image: [p_img57],
     category: "Men-Shirt",
     subCategory: "Topwear",
     sizes: ["S", "M", "L", "XL"],
@@ -1158,12 +1163,12 @@ export const products = [
   },
   {
     _id: "aaabd",
-    name: "Girls' Mermaid Sequin Tee",
+    name: "Men Classic Tee",
     description:
-      "A magical and interactive t-shirt for girls who love sparkle and surprise. This cotton top features reversible sequin designs that change color when brushed, providing endless entertainment and a unique way to express creativity.",
+      "A magical and interactive t-shirt for men who love sparkle and surprise. This cotton top features reversible sequin designs that change color when brushed, providing endless entertainment and a unique way to express creativity.",
     price: 240,
     image: [p_img30],
-    category: "Kids",
+    category: "Men-Shirt",
     subCategory: "Topwear",
     sizes: ["S", "M", "L", "XL"],
     date: 1716644245448,
@@ -1175,7 +1180,7 @@ export const products = [
     description:
       "A cutting-edge t-shirt designed for the modern, active man. This high-tech tee features moisture-wicking and odor-resistant properties, ensuring comfort and freshness during workouts or busy days on the go.",
     price: 220,
-    image: [p_img31],
+    image: [p_img31,],
     category: "Men-Shirt",
     subCategory: "Topwear",
     sizes: ["S", "M", "L", "XL"],
@@ -1188,26 +1193,26 @@ export const products = [
     description:
       "A cutting-edge t-shirt designed for the modern, active man. This high-tech tee features moisture-wicking and odor-resistant properties, ensuring comfort and freshness during workouts or busy days on the go.",
     price: 250,
-    image: [p_img32],
+    image: [p_img32,p_img28],
     category: "Men-Shirt",
     subCategory: "Topwear",
     sizes: ["S", "M", "L", "XL"],
     date: 1716646445448,
     bestseller: false,
   },
-  {
-    _id: "aaabg",
-    name: "Girls' Floral Embroidered Tee",
-    description:
-      "A charming and delicate t-shirt for girls who appreciate fine details. This cotton top features beautiful floral embroidery, adding a touch of sophistication and femininity to her everyday wardrobe.",
-    price: 230,
-    image: [p_img33],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716647545448,
-    bestseller: false,
-  },
+  // {
+  //   _id: "aaabg",
+  //   name: "Girls' Floral Embroidered Tee",
+  //   description:
+  //     "A charming and delicate t-shirt for girls who appreciate fine details. This cotton top features beautiful floral embroidery, adding a touch of sophistication and femininity to her everyday wardrobe.",
+  //   price: 230,
+  //   image: [p_img33],
+  //   category: "Kids",
+  //   subCategory: "Topwear",
+  //   sizes: ["S", "M", "L", "XL"],
+  //   date: 1716647545448,
+  //   bestseller: false,
+  // },
   {
     _id: "aaabh",
     name: "Women's Boho Lace-Trim Top",
@@ -1280,7 +1285,7 @@ export const products = [
     description:
       "A relaxed and breathable shirt perfect for warm weather. This linen blend shirt features a subtle texture and comfortable fit, ideal for creating effortlessly stylish looks for beach vacations or casual summer days.",
     price: 260,
-    image: [p_img39],
+    image: [p_img61],
     category: "Men-Shirt",
     subCategory: "Topwear",
     sizes: ["S", "M", "L", "XL"],
@@ -1306,7 +1311,7 @@ export const products = [
     description:
       "A high-performance t-shirt designed for runners and fitness enthusiasts. This lightweight tee features advanced moisture-wicking technology and strategically placed mesh panels for enhanced breathability during intense workouts.",
     price: 270,
-    image: [p_img41],
+    image: [p_img41,p_img47,p_img48],
     category: "Men-Shirt",
     subCategory: "Topwear",
     sizes: ["S", "M", "L", "XL"],
@@ -1384,7 +1389,7 @@ export const products = [
     description:
       "Durable and practical pants designed for active kids. These cargo pants feature reinforced knees to withstand rough play and plenty of pockets for storing treasures, perfect for outdoor adventures or everyday wear.",
     price: 300,
-    image: [p_img47],
+    image: [p_img59],
     category: "Kids",
     subCategory: "Bottomwear",
     sizes: ["S", "M", "L", "XL"],
@@ -1397,7 +1402,7 @@ export const products = [
     description:
       "A lightweight and versatile jacket for unpredictable weather. This water-resistant windbreaker features a packable design and adjustable hood, making it perfect for outdoor activities or as an extra layer for changing conditions.",
     price: 330,
-    image: [p_img48],
+    image: [p_img60],
     category: "Men-Shirt",
     subCategory: "Winterwear",
     sizes: ["S", "M", "L", "XL"],
