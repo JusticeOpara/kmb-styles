@@ -56,13 +56,15 @@ import p_img52 from "./p_img52.png";
 import p_img53 from "./p_img53.png";
 import p_img54 from "./p_img54.png";
 import p_img55 from "./p_img55.png";
-import p_img56 from "./p_img56.png"
-import p_img57 from "./p_img57.png"
-import p_img58 from "./p_img58.png"
-import p_img59 from "./p_img59.png"
-import p_img59_1 from "./p_img59_1.png"
-import p_img60 from "./p_img60.png"
- import p_img61 from "./p_img61.png"
+import p_img56 from "./p_img56.png";
+import p_img57 from "./p_img57.png";
+import p_img58 from "./p_img58.png";
+import p_img59 from "./p_img59.png";
+import p_img59_1 from "./p_img59_1.png";
+import p_img60 from "./p_img60.png";
+import p_img61 from "./p_img61.png";
+import p_img62 from "./p_img62.png";
+
 
 import logo from "./logo.png";
 import hero_img from "./hero_img.png";
@@ -1167,7 +1169,7 @@ export const products = [
     description:
       "A magical and interactive t-shirt for men who love sparkle and surprise. This cotton top features reversible sequin designs that change color when brushed, providing endless entertainment and a unique way to express creativity.",
     price: 240,
-    image: [p_img30],
+    image: [p_img30,p_img36],
     category: "Men-Shirt",
     subCategory: "Topwear",
     sizes: ["S", "M", "L", "XL"],
@@ -1240,19 +1242,19 @@ export const products = [
   //   date: 1716649745448,
   //   bestseller: false,
   // },
-  {
-    _id: "aaabj",
-    name: "Women's Cozy Sherpa-Lined Jacket",
-    description:
-      "A warm and stylish jacket perfect for cold winter days. This zip-front jacket features a soft sherpa lining for extra warmth and a relaxed fit for easy layering, combining comfort with urban chic design.",
-    price: 270,
-    image: [p_img36],
-    category: "Men-Shirt",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716650845448,
-    bestseller: false,
-  },
+  // {
+  //   _id: "aaabj",
+  //   name: "",
+  //   description:
+  //     "A warm and stylish jacket perfect for cold winter days. This zip-front jacket features a soft sherpa lining for extra warmth and a relaxed fit for easy layering, combining comfort with urban chic design.",
+  //   price: 270,
+  //   image: [p_img36],
+  //   category: "Men-Shirt",
+  //   subCategory: "Winterwear",
+  //   sizes: ["S", "M", "L", "XL"],
+  //   date: 1716650845448,
+  //   bestseller: false,
+  // },
   // {
   //   _id: 'aaabk',
   //   name: "Women's Elegant Wrap Blouse",
@@ -1294,11 +1296,11 @@ export const products = [
   },
   {
     _id: "aaabn",
-    name: "Men's Vintage Washed Denim Jacket",
+    name: "Men's Simple T-Shirt ",
     description:
-      "A classic denim jacket with a worn-in look and feel. This vintage-inspired jacket features a comfortable fit and subtle distressing, perfect for adding a rugged touch to any casual outfit.",
+      "A classic denim t-shirt with a worn-in look and feel. This vintage-inspired shirt features a comfortable fit and subtle distressing, perfect for adding a rugged touch to any casual outfit.",
     price: 290,
-    image: [p_img40],
+    image: [p_img62],
     category: "Men-Shirt",
     subCategory: "Winterwear",
     sizes: ["S", "M", "L", "XL"],
