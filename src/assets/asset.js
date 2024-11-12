@@ -515,7 +515,7 @@ export const products1 = [
     name: "Men Round Neck Pure Cotton T-shirt",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 230,
+    price: 130,
     image: [p_img32],
     category: "Men",
     subCategory: "Topwear",
@@ -528,7 +528,7 @@ export const products1 = [
     name: "Girls Round Neck Cotton Top",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 230,
+    price: 130,
     image: [p_img33],
     category: "Kids",
     subCategory: "Topwear",
@@ -541,7 +541,7 @@ export const products1 = [
     name: "Women Round Neck Cotton Top",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 220,
+    price: 120,
     image: [p_img34],
     category: "Women",
     subCategory: "Topwear",
@@ -697,7 +697,7 @@ export const products1 = [
     name: "Men Slim Fit Relaxed Denim Jacket",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 320,
+    price: 120,
     image: [p_img46],
     category: "Men",
     subCategory: "Winterwear",
@@ -710,7 +710,7 @@ export const products1 = [
     name: "Kid Tapered Slim Fit Trouser",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 300,
+    price: 120,
     image: [p_img47],
     category: "Kids",
     subCategory: "Bottomwear",
@@ -749,7 +749,7 @@ export const products1 = [
     name: "Kid Tapered Slim Fit Trouser",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 340,
+    price: 110,
     image: [p_img50],
     category: "Kids",
     subCategory: "Bottomwear",
@@ -762,7 +762,7 @@ export const products1 = [
     name: "Women Zip-Front Relaxed Fit Jacket",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 320,
+    price: 110,
     image: [p_img51],
     category: "Women",
     subCategory: "Winterwear",
@@ -775,7 +775,7 @@ export const products1 = [
     name: "Men Slim Fit Relaxed Denim Jacket",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 350,
+    price: 110,
     image: [p_img52],
     category: "Men",
     subCategory: "Winterwear",
@@ -804,7 +804,7 @@ export const products = [
     name: "Men's Classic Crew Neck T-shirt",
     description:
       "A staple for any man's wardrobe, this pure cotton t-shirt offers both comfort and style. Its durable fabric and timeless design make it suitable for various occasions, from casual outings to relaxed office environments.",
-    price: 200,
+    price: 120,
     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -856,7 +856,7 @@ export const products = [
     name: "Men Classic out fit",
     description:
       "A high-performance t-shirt designed for active men. Made from moisture-wicking cotton blend fabric, this tee keeps you cool and dry during workouts or sports activities, while maintaining a stylish look",
-    price: 140,
+    price: 120,
     image: [p_img6],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -869,7 +869,7 @@ export const products = [
     name: "Men's Smart Casual Chinos",
     description:
       "Versatile and stylish trousers for the modern man. These tapered fit chinos offer a perfect balance of comfort and sophistication, suitable for both office environments and casual weekend outings.",
-    price: 190,
+    price: 110,
     image: [p_img5, p_img7, p_img8, p_img12],
     category: "Men-Shirt",
     subCategory: "Bottomwear",
@@ -882,7 +882,7 @@ export const products = [
     name: "Men's Perfect Shirt",
     description:
       "A high-performance t-shirt designed for active men. Made from moisture-wicking cotton blend fabric, this tee keeps you cool and dry during workouts or sports activities, while maintaining a stylish look.",
-    price: 140,
+    price: 120,
     image: [p_img53],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -960,7 +960,7 @@ export const products = [
     name: "Classic Plaid Camp Shirt",
     description:
       "A durable and comfortable t-shirt designed for active men. Made from sturdy cotton, this tee features fun, adventure-themed graphics and is built to withstand the rigors of playground exploration and outdoor activities.",
-    price: 160,
+    price: 110,
     image: [p_img54],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1038,7 +1038,7 @@ export const products = [
     name: "Sharp T-Shirt",
     description:
       "A magical and enchanting t-shirt for men. This cotton top features glittery designs and pastel colors, perfect for making every day feel special and adding a touch of sparkle to ur wardrobe.",
-    price: 190,
+    price: 110,
     image: [p_img20],
     category: "Men-Shirt",
     subCategory: "Bottomwear",
@@ -1411,19 +1411,19 @@ export const products = [
     date: 1716664045448,
     bestseller: false,
   },
-  {
-    _id: "aaabw",
-    name: "Kids' Elastic Waist Jogger Pants",
-    description:
-      "Comfortable and stylish pants for active kids on the move. These jogger pants feature a soft elastic waistband and tapered legs, perfect for sports practice, playground fun, or casual everyday wear.",
-    price: 120,
-    image: [p_img49],
-    category: "Kids",
-    subCategory: "Bottomwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716665145448,
-    bestseller: false,
-  },
+  // {
+  //   _id: "aaabw",
+  //   name: "Kids' Elastic Waist Jogger Pants",
+  //   description:
+  //     "Comfortable and stylish pants for active kids on the move. These jogger pants feature a soft elastic waistband and tapered legs, perfect for sports practice, playground fun, or casual everyday wear.",
+  //   price: 120,
+  //   image: [p_img49],
+  //   category: "Kids",
+  //   subCategory: "Bottomwear",
+  //   sizes: ["S", "M", "L", "XL"],
+  //   date: 1716665145448,
+  //   bestseller: false,
+  // },
   {
     _id: "aaabx",
     name: "Classic Men's Senator Suit",
@@ -1450,17 +1450,17 @@ export const products = [
     date: 1716667345448,
     bestseller: false,
   },
-  {
-    _id: "aaabz",
-    name: "Classic Pinstripe Shirt",
-    description:
-      "A timeless pinstripe shirt that brings a retro flair to semi-formal wear, perfect for dressing up or down.",
-    price: 110,
-    image: [p_img52],
-    category: "Men-Shirt",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716668445448,
-    bestseller: false,
-  },
+  // {
+  //   _id: "aaabz",
+  //   name: "Classic Pinstripe Shirt",
+  //   description:
+  //     "A timeless pinstripe shirt that brings a retro flair to semi-formal wear, perfect for dressing up or down.",
+  //   price: 110,
+  //   image: [p_img52],
+  //   category: "Men-Shirt",
+  //   subCategory: "Winterwear",
+  //   sizes: ["S", "M", "L", "XL"],
+  //   date: 1716668445448,
+  //   bestseller: false,
+  // },
 ];

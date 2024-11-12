@@ -119,12 +119,12 @@ const Product = () => {
       <div className="mt-10">
         <div className="flex">
           <b className="px-5 py-3 text-sm border">Description</b>
-          <p className="px-5 py-3 text-sm border">Reviews (122)</p>
+          <p className="px-5 py-3 text-sm border">Reviews (2)</p>
         </div>
 
         <div className=" flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500 ">
           <p>
-            Ane-commerce website is an online platform that facilitates the
+            KMB-commerce website is an online platform that facilitates the
             buying and selling of products or services over the internet. It
             serves as a vietual marketplace where businesses and individuals.com
             showcase ther produch, interact with customers, and conduct
