@@ -125,7 +125,7 @@ export const products1 = [
     name: "Men Round Neck Pure Cotton T-shirt",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 200,
+    price: 100,
     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
     category: "Men",
     subCategory: "Topwear",
@@ -138,7 +138,7 @@ export const products1 = [
     name: "Girls Round Neck Cotton Top",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 220,
+    price: 130,
     image: [p_img3],
     category: "Kids",
     subCategory: "Topwear",
@@ -190,7 +190,7 @@ export const products1 = [
     name: "Men Tapered Fit Flat-Front Trousers",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 190,
+    price: 130,
     image: [p_img7],
     category: "Men",
     subCategory: "Bottomwear",
@@ -385,7 +385,7 @@ export const products1 = [
     name: "Women Palazzo Pants with Waist Belt",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 200,
+    price: 120,
     image: [p_img22],
     category: "Women",
     subCategory: "Bottomwear",
@@ -411,7 +411,7 @@ export const products1 = [
     name: "Boy Round Neck Pure Cotton T-shirt",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 210,
+    price: 120,
     image: [p_img24],
     category: "Kids",
     subCategory: "Topwear",
@@ -437,7 +437,7 @@ export const products1 = [
     name: "Women Zip-Front Relaxed Fit Jacket",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 220,
+    price: 120,
     image: [p_img26],
     category: "Women",
     subCategory: "Winterwear",
@@ -515,7 +515,7 @@ export const products1 = [
     name: "Men Round Neck Pure Cotton T-shirt",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 250,
+    price: 230,
     image: [p_img32],
     category: "Men",
     subCategory: "Topwear",
@@ -541,7 +541,7 @@ export const products1 = [
     name: "Women Round Neck Cotton Top",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 260,
+    price: 220,
     image: [p_img34],
     category: "Women",
     subCategory: "Topwear",
@@ -567,7 +567,7 @@ export const products1 = [
     name: "Women Zip-Front Relaxed Fit Jacket",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 270,
+    price: 120,
     image: [p_img36],
     category: "Women",
     subCategory: "Winterwear",
@@ -580,7 +580,7 @@ export const products1 = [
     name: "Women Round Neck Cotton Top",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 250,
+    price: 130,
     image: [p_img37],
     category: "Women",
     subCategory: "Topwear",
@@ -593,7 +593,7 @@ export const products1 = [
     name: "Men Round Neck Pure Cotton T-shirt",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 280,
+    price: 120,
     image: [p_img38],
     category: "Men",
     subCategory: "Topwear",
@@ -619,7 +619,7 @@ export const products1 = [
     name: "Men Slim Fit Relaxed Denim Jacket",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 290,
+    price: 120,
     image: [p_img40],
     category: "Men",
     subCategory: "Winterwear",
@@ -632,7 +632,7 @@ export const products1 = [
     name: "Men Round Neck Pure Cotton T-shirt",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 270,
+    price: 120,
     image: [p_img41],
     category: "Men",
     subCategory: "Topwear",
@@ -645,7 +645,7 @@ export const products1 = [
     name: "Boy Round Neck Pure Cotton T-shirt",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 300,
+    price: 120,
     image: [p_img42],
     category: "Kids",
     subCategory: "Topwear",
@@ -658,7 +658,7 @@ export const products1 = [
     name: "Kid Tapered Slim Fit Trouser",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 280,
+    price: 120,
     image: [p_img43],
     category: "Kids",
     subCategory: "Bottomwear",
@@ -671,7 +671,7 @@ export const products1 = [
     name: "Women Zip-Front Relaxed Fit Jacket",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 310,
+    price: 120,
     image: [p_img44],
     category: "Women",
     subCategory: "Winterwear",
@@ -684,7 +684,7 @@ export const products1 = [
     name: "Men Slim Fit Relaxed Denim Jacket",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 290,
+    price: 120,
     image: [p_img45],
     category: "Men",
     subCategory: "Winterwear",
@@ -723,7 +723,7 @@ export const products1 = [
     name: "Men Slim Fit Relaxed Denim Jacket",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 330,
+    price: 120,
     image: [p_img48],
     category: "Men",
     subCategory: "Winterwear",
@@ -736,7 +736,7 @@ export const products1 = [
     name: "Kid Tapered Slim Fit Trouser",
     description:
       "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 310,
+    price: 120,
     image: [p_img49],
     category: "Kids",
     subCategory: "Bottomwear",
@@ -986,7 +986,7 @@ export const products = [
     name: "Sharp Vintage Shirt",
     description:
       "A magical and enchanting t-shirt for men. This cotton top features glittery designs and pastel colors, perfect for making every day feel special and adding a touch of sparkle to ur wardrobe.",
-    price: 170,
+    price: 120,
     image: [p_img16],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -999,7 +999,7 @@ export const products = [
     name: "Men's Business Casual Slacks",
     description:
       "Sophisticated trousers that seamlessly transition from office to after-hours events. These flat-front slacks offer a sleek silhouette and are crafted from a wrinkle-resistant fabric blend for all-day polish.",
-    price: 150,
+    price: 120,
     image: [p_img17],
     category: "Men-Shirt",
     subCategory: "Bottomwear",
@@ -1012,7 +1012,7 @@ export const products = [
     name: "Men's Business Casual Slacks",
     description:
       "Sophisticated trousers that seamlessly transition from office to after-hours events. These flat-front slacks offer a sleek silhouette and are crafted from a wrinkle-resistant fabric blend for all-day polish.",
-    price: 180,
+    price: 130,
     image: [p_img18, p_img22, p_img35, p_img44],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1077,7 +1077,7 @@ export const products = [
     name: "Retro Plaid Flannel Shirt",
     description:
       "A soft, cozy plaid flannel shirt inspired by classic 90s grunge fashion. Perfect for layering in cooler weather.",
-    price: 180,
+    price: 110,
     image: [p_img23],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1090,7 +1090,7 @@ export const products = [
     name: "Vintage Floral Button-Down",
     description:
       "A lightweight, retro-inspired floral shirt that brings a hint of the 70s. Ideal for casual outings or beach days.",
-    price: 210,
+    price: 110,
     image: [p_img24],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1098,25 +1098,25 @@ export const products = [
     date: 1716637645448,
     bestseller: false,
   },
-  {
-    _id: "aaaay",
-    name: "Old-School Hawaiian Shirt",
-    description:
-      "A vibrant Hawaiian shirt with tropical patterns, reminiscent of mid-century vacation styles. Great for relaxed occasions.",
-    price: 190,
-    image: [p_img25],
-    category: "Men-Shirt",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716638745448,
-    bestseller: false,
-  },
+  // {
+  //   _id: "aaaay",
+  //   name: "Old-School Hawaiian Shirt",
+  //   description:
+  //     "A vibrant Hawaiian shirt with tropical patterns, reminiscent of mid-century vacation styles. Great for relaxed occasions.",
+  //   price: 110,
+  //   image: [p_img25],
+  //   category: "Men-Shirt",
+  //   subCategory: "Topwear",
+  //   sizes: ["S", "M", "L", "XL"],
+  //   date: 1716638745448,
+  //   bestseller: false,
+  // },
   {
     _id: "aaaaz",
     name: "Vintage Denim Work Shirt",
     description:
       "Classic denim work shirt with rugged appeal, offering a lived-in look. Ideal for a casual, everyday style.",
-    price: 220,
+    price: 120,
     image: [p_img55],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1129,7 +1129,7 @@ export const products = [
     name: "Retro Argyle Knit Shirt",
     description:
       "A vintage-inspired argyle knit shirt that brings a touch of class to any casual outfit. Ideal for cooler weather.",
-    price: 200,
+    price: 120,
     image: [p_img56],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1142,7 +1142,7 @@ export const products = [
     name: "Men's Classic Denim Jacket",
     description:
       "A timeless outerwear piece that never goes out of style. This slim-fit denim jacket offers versatility and durability, perfect for layering over t-shirts or button-downs in cooler weather or as a stylish accent to any casual outfit.",
-    price: 230,
+    price: 120,
     image: [p_img59,p_img59_1],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1155,7 +1155,7 @@ export const products = [
     name: "Classic Cuban Collar Shirt",
     description:
       "A relaxed, Cuban collar shirt that brings a retro, laid-back vibe. Perfect for both summer days and nights out",
-    price: 210,
+    price: 120,
     image: [p_img57],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1168,7 +1168,7 @@ export const products = [
     name: "Men Classic Tee",
     description:
       "A magical and interactive t-shirt for men who love sparkle and surprise. This cotton top features reversible sequin designs that change color when brushed, providing endless entertainment and a unique way to express creativity.",
-    price: 240,
+    price: 120,
     image: [p_img30,p_img36],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1181,7 +1181,7 @@ export const products = [
     name: "Men's Tech-Smart Performance Tee",
     description:
       "A cutting-edge t-shirt designed for the modern, active man. This high-tech tee features moisture-wicking and odor-resistant properties, ensuring comfort and freshness during workouts or busy days on the go.",
-    price: 220,
+    price: 120,
     image: [p_img31,],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1194,7 +1194,7 @@ export const products = [
     name: "Men's Tech-Smart Performance Tee",
     description:
       "A cutting-edge t-shirt designed for the modern, active man. This high-tech tee features moisture-wicking and odor-resistant properties, ensuring comfort and freshness during workouts or busy days on the go.",
-    price: 250,
+    price: 120,
     image: [p_img32,p_img28],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1220,7 +1220,7 @@ export const products = [
     name: "Men's Business Casual Slacks",
     description:
       "Sophisticated trousers that seamlessly transition from office to after-hours events. These flat-front slacks offer a sleek silhouette and are crafted from a wrinkle-resistant fabric blend for all-day polish.",
-    price: 260,
+    price: 120,
     image: [p_img34],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1273,7 +1273,7 @@ export const products = [
     name: "Men's Premium Pima Cotton Tee",
     description:
       "A luxurious t-shirt crafted from high-quality Pima cotton. This premium tee offers exceptional softness and durability, making it a perfect choice for those who appreciate superior comfort and understated elegance in their everyday wear.",
-    price: 280,
+    price: 120,
     image: [p_img38],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1286,7 +1286,7 @@ export const products = [
     name: "Men's Casual Linen Blend Shirt",
     description:
       "A relaxed and breathable shirt perfect for warm weather. This linen blend shirt features a subtle texture and comfortable fit, ideal for creating effortlessly stylish looks for beach vacations or casual summer days.",
-    price: 260,
+    price: 120,
     image: [p_img61],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1299,7 +1299,7 @@ export const products = [
     name: "Men's Simple T-Shirt ",
     description:
       "A classic denim t-shirt with a worn-in look and feel. This vintage-inspired shirt features a comfortable fit and subtle distressing, perfect for adding a rugged touch to any casual outfit.",
-    price: 290,
+    price: 120,
     image: [p_img62],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1312,7 +1312,7 @@ export const products = [
     name: "Men's Moisture-Wicking Running Tee",
     description:
       "A high-performance t-shirt designed for runners and fitness enthusiasts. This lightweight tee features advanced moisture-wicking technology and strategically placed mesh panels for enhanced breathability during intense workouts.",
-    price: 270,
+    price: 120,
     image: [p_img41,p_img47,p_img48],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1325,7 +1325,7 @@ export const products = [
     name: "Boys' Glow-in-the-Dark Space Tee",
     description:
       "An exciting t-shirt for young space enthusiasts. This cotton tee features glow-in-the-dark prints of planets and stars, sparking imagination and adding a fun element to bedtime routines.",
-    price: 300,
+    price: 120,
     image: [p_img42],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1364,7 +1364,7 @@ export const products = [
     name: "Men's Rugged Outdoor Denim Jacket",
     description:
       "A durable and stylish jacket built for outdoor adventures. This reinforced denim jacket features multiple utility pockets and a warm flannel lining, perfect for camping trips or cool evenings around the bonfire.",
-    price: 290,
+    price: 120,
     image: [p_img45],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1377,7 +1377,7 @@ export const products = [
     name: "Men's Classic Bomber Jacket",
     description:
       "A timeless outerwear piece that combines style and functionality. This bomber jacket features a sleek silhouette and ribbed cuffs and hem, perfect for adding a touch of cool to any casual or smart-casual outfit.",
-    price: 320,
+    price:120,
     image: [p_img46],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1390,7 +1390,7 @@ export const products = [
     name: "Vintage Denim Work Shirt",
     description:
       "Classic denim work shirt with rugged appeal, offering a lived-in look. Ideal for a casual, everyday style.",
-    price: 300,
+    price: 120,
     image: [p_img59],
     category: "Men-Shirt",
     subCategory: "Bottomwear",
@@ -1403,7 +1403,7 @@ export const products = [
     name: "Men's Water-Resistant Windbreaker",
     description:
       "A lightweight and versatile jacket for unpredictable weather. This water-resistant windbreaker features a packable design and adjustable hood, making it perfect for outdoor activities or as an extra layer for changing conditions.",
-    price: 330,
+    price: 120,
     image: [p_img60],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1416,7 +1416,7 @@ export const products = [
     name: "Kids' Elastic Waist Jogger Pants",
     description:
       "Comfortable and stylish pants for active kids on the move. These jogger pants feature a soft elastic waistband and tapered legs, perfect for sports practice, playground fun, or casual everyday wear.",
-    price: 310,
+    price: 120,
     image: [p_img49],
     category: "Kids",
     subCategory: "Bottomwear",
@@ -1429,7 +1429,7 @@ export const products = [
     name: "Classic Men's Senator Suit",
     description:
       "A refined mens senator suit perfect for formal occasions and cultural gatherings. Tailored for elegance and comfort.",
-    price: 340,
+    price: 120,
     image: [p_img50],
     category: "Men-Senator",
     subCategory: "Bottomwear",
@@ -1442,7 +1442,7 @@ export const products = [
     name: "Men's Casual Linen Blend Shirt",
     description:
       "",
-    price: 320,
+    price: 120,
     image: [p_img51],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1455,7 +1455,7 @@ export const products = [
     name: "Classic Pinstripe Shirt",
     description:
       "A timeless pinstripe shirt that brings a retro flair to semi-formal wear, perfect for dressing up or down.",
-    price: 350,
+    price: 110,
     image: [p_img52],
     category: "Men-Shirt",
     subCategory: "Winterwear",
