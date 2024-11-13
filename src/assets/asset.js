@@ -84,6 +84,8 @@ import contact_img from "./contact_img.png";
 import razorpay_logo from "./razorpay_logo.png";
 import stripe_logo from "./stripe_logo.png";
 import cross_icon from "./cross_icon.png";
+import customer_ref from "./customer_ref.svg"
+import profile_pic from "./profile_pic.png"
 
 export const assets = {
   logo,
@@ -104,6 +106,8 @@ export const assets = {
   razorpay_logo,
   stripe_logo,
   cross_icon,
+  customer_ref,
+  profile_pic
 };
 
 export const products1 = [
@@ -804,7 +808,7 @@ export const products = [
     name: "Men's Classic Crew Neck T-shirt",
     description:
       "A staple for any man's wardrobe, this pure cotton t-shirt offers both comfort and style. Its durable fabric and timeless design make it suitable for various occasions, from casual outings to relaxed office environments.",
-    price: 120,
+    price: 110,
     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
     category: "Men-Shirt",
     subCategory: "Topwear",

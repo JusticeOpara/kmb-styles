@@ -1,15 +1,16 @@
-import { useContext, useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
-import { ShopContext } from '../context/ContextShop';
-import { assets } from '../assets/asset';
-import RelatedProducts from '../components/RelatedProducts';
+import { useContext, useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { ShopContext } from "../context/ContextShop";
+import { assets } from "../assets/asset";
+import RelatedProducts from "../components/RelatedProducts";
 
 const Product = () => {
   const { productId } = useParams();
   const { products, currency, addToCart } = useContext(ShopContext);
   const [productsData, setProductsData] = useState(false);
-  const [image, setImage] = useState('');
-  const [size, setSize] = useState('');
+  const [activeTab, setActiveTab] = useState("description");
+  const [image, setImage] = useState("");
+  const [size, setSize] = useState("");
 
   const fetchProductsData = async () => {
     products.map((product) => {
@@ -88,7 +89,7 @@ const Product = () => {
                     setSize(item);
                   }}
                   className={`w-8 h-8 border bg-gray-100 flex items-center justify-center cursor-pointer
-                  ${item === size ? 'border-orange-500' : ''}
+                  ${item === size ? "border-orange-500" : ""}
                   `}
                 >
                   {item}
@@ -108,7 +109,7 @@ const Product = () => {
 
           <div className="flex flex-col gap-1 mt-5 text-sm text-gray-500">
             <p>100% Original product </p>
-            <p>Free delivery on order above $49</p>
+            <p>Free delivery on order above £210</p>
             <p> Easy return and exchange policy within 7 days </p>
           </div>
         </div>
@@ -117,28 +118,103 @@ const Product = () => {
       {/* ---------------------- Products Description and review section ----------------------*/}
 
       <div className="mt-10">
+        {/* Tab Headers */}
         <div className="flex">
-          <b className="px-5 py-3 text-sm border">Description</b>
-          <p className="px-5 py-3 text-sm border">Reviews (2)</p>
+          <button
+            className={`px-5 py-3 text-sm border ${
+              activeTab === "description" ? "bg-gray-100 font-bold" : ""
+            }`}
+            onClick={() => setActiveTab("description")}
+          >
+            Description
+          </button>
+          <button
+            className={`px-5 py-3 text-sm border ${
+              activeTab === "reviews" ? "bg-gray-100 font-bold" : ""
+            }`}
+            onClick={() => setActiveTab("reviews")}
+          >
+            Reviews (2)
+          </button>
         </div>
 
-        <div className=" flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500 ">
-          <p>
-            KMB-commerce website is an online platform that facilitates the
-            buying and selling of products or services over the internet. It
-            serves as a vietual marketplace where businesses and individuals.com
-            showcase ther produch, interact with customers, and conduct
-            fransactions without the need for a physical presence. E-commerce
-            websites have goned immense popularity due to their convenience,
-            accessibility, and the global reach they offer.
-          </p>
-          <p>
-            E-commerce websites typically display products or services along
-            with defailed descriptions, images, prices, and any ovalable
-            variations (eg, sizes colors). Each product uwaly has its ww
-            dedicated page with relevant infurroution
-          </p>
-        </div>
+        {/* Description Content */}
+        {activeTab === "description" && (
+          <div className="flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500">
+            <p>
+              KMB-commerce is an online platform dedicated to men&apos;s
+              fashion, enabling seamless buying and selling of stylish garments.
+              Our brand focuses on crafting timeless pieces that blend
+              contemporary style with classic elegance, drawing on over five
+              years of industry experience.
+            </p>
+            <p>
+              Our collection, KMB Styles, combines sleek aesthetics with
+              luxurious elements, inspired by the vibrant energy of urban life.
+              Each product features detailed descriptions, images, and
+              variations to enhance the shopping experience.
+            </p>
+            <p>
+              We prioritize high-quality materials from ethical suppliers,
+              ensuring every garment meets our rigorous standards. As we look to
+              expand our global presence, we remain committed to sustainability
+              and innovative design, catering to fashion-forward individuals who
+              value style and quality.
+            </p>
+          </div>
+        )}
+
+        {/* Reviews Content */}
+        {activeTab === "reviews" && (
+          <div className="border px-6 py-6 text-sm text-gray-500">
+            <div className="flex flex-col gap-4">
+              <div className="border-b pb-4">
+                <h3 className="font-bold mb-2">Customer Review (1)</h3>
+                <p className="mb-2">
+                  I love the KMB Styles collection! I bought a couple of shirts,
+                  and they are not only stylish but also incredibly comfortable.
+                  The attention to detail is evident, and I appreciate their
+                  commitment to sustainability in sourcing materials. Shopping
+                  on their website was easy, and I will definitely be back for
+                  more!
+                </p>
+                <div className="flex space-x-2 items-center">
+                  <img
+                    src={assets.profile_pic}
+                    className="w-8 h-8 rounded-full"
+                    alt="customer"
+                  />
+                  <span className="font-sans text-black font-semibold">
+                  Chinonso Felix
+                  </span>
+                </div>
+              </div>
+              <div>
+                <h3 className="font-bold mb-2">Customer Review (2)</h3>
+                <p className="mb-2">
+                  I recently purchased a Vintage Shirt from KMB Styles, and I
+                  couldn&apos;t be happier! The quality of the material is
+                  outstanding, and the fit is perfect. It feels both modern and
+                  classic, making it versatile for different occasions. The
+                  online shopping experience was smooth, and my order arrived
+                  promptly. Highly recommend for anyone looking to elevate their
+                  wardrobe!
+                </p>
+
+                <div className="flex space-x-2 items-center">
+                  <img
+                    src={assets.customer_ref}
+                    className="w-8 h-8 rounded-full"
+                    alt="customer"
+                  />
+                  <span className="font-sans text-black font-semibold">
+                    Justino Onyebuchi
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* ----------------------  Display Products  Products ----------------------*/}
