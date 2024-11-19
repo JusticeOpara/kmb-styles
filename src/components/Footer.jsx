@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="f">
+    <>
       <div className="flex flex-col sm:grid grid-cols-[3fr_1fr_1fr] md:gap-14 my-10 mt-40 text-sm ">
         <div className="">
         <div className="flex items-center ">
@@ -56,12 +56,13 @@ const Footer = () => {
             </li>
           </ul>
         </div>
+        <span ></span>
 
         <div className="">
           <p className="text-xl font-medium mb-5">GET IN TOUCH</p>
           <ul className="flex flex-col flex-1 text-gray-600">
-            <li className="mb-2">+2348037643747</li>
-            <li className="mb-2">contact@forevryou.com </li>
+            <li className="mb-2" >+2348037643747</li>
+            <li className="mb-2">kmb-styles@gmail.com </li>
           </ul>
         </div>
       </div>
@@ -71,7 +72,7 @@ const Footer = () => {
           Copyright 2024@ KMB.com - All Rights Reserved
         </p>
       </div>
-    </div>
+    </>
   );
 };
 
