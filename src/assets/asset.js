@@ -795,7 +795,7 @@ export const products = [
     name: "Vintage Wash Denim Shirt",
     description:
       "A rugged denim shirt with a vintage wash, combining style and durability for a casual yet refined look",
-    price: 100,
+    price: 70,
     image: [p_img1, p_img3, p_img21],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -808,7 +808,7 @@ export const products = [
     name: "Men's Classic Crew Neck T-shirt",
     description:
       "A staple for any man's wardrobe, this pure cotton t-shirt offers both comfort and style. Its durable fabric and timeless design make it suitable for various occasions, from casual outings to relaxed office environments.",
-    price: 110,
+    price: 70,
     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -834,7 +834,7 @@ export const products = [
     name: "Men's Everyday Essentials Tee",
     description:
       "A must-have basic t-shirt for men seeking comfort and versatility. Made from soft, breathable cotton, this tee is perfect for layering or wearing on its own, suitable for various casual settings.",
-    price: 110,
+    price: 80,
     image: [p_img4],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -886,7 +886,7 @@ export const products = [
     name: "Men's Perfect Shirt",
     description:
       "A high-performance t-shirt designed for active men. Made from moisture-wicking cotton blend fabric, this tee keeps you cool and dry during workouts or sports activities, while maintaining a stylish look.",
-    price: 120,
+    price: 70,
     image: [p_img53],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -912,7 +912,7 @@ export const products = [
     name: "Men's Classic Fit Dress Pants",
     description:
       "Sophisticated and comfortable trousers for the professional man. These flat-front pants offer a timeless look with a modern fit, perfect for office wear or formal occasions.",
-    price: 110,
+    price: 90,
     image: [p_img10],
     category: "Men-Shirt",
     subCategory: "Bottomwear",
@@ -925,7 +925,7 @@ export const products = [
     name: "Men's Vintage Wash Graphic Tee",
     description:
       "A trendy and comfortable t-shirt featuring a vintage-inspired graphic design. Made from soft, pre-washed cotton for that perfect lived-in feel, this tee is ideal for casual outings or relaxed weekends at home.",
-    price: 120,
+    price: 70,
     image: [p_img11, p_img9, p_img37, p_img43],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -951,7 +951,7 @@ export const products = [
     name: "70s Disco Collar Shirt",
     description:
       "A free-spirited and masculine top that embodies boho-chic style. This cotton blouse features a delicate floral print and relaxed fit, perfect for creating effortlessly stylish looks for both casual days and summer events.",
-    price: 130,
+    price: 90,
     image: [p_img58],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -964,7 +964,7 @@ export const products = [
     name: "Classic Plaid Camp Shirt",
     description:
       "A durable and comfortable t-shirt designed for active men. Made from sturdy cotton, this tee features fun, adventure-themed graphics and is built to withstand the rigors of playground exploration and outdoor activities.",
-    price: 110,
+    price: 80,
     image: [p_img54],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -977,7 +977,7 @@ export const products = [
     name: "Men's Stretch Comfort Chinos",
     description:
       "Modern and versatile trousers that combine style with comfort. These chinos feature a hint of stretch for ease of movement, making them perfect for long days at the office or social gatherings after work.",
-    price: 140,
+    price: 80,
     image: [p_img15],
     category: "Men-Shirt",
     subCategory: "Bottomwear",
@@ -990,7 +990,7 @@ export const products = [
     name: "Sharp Vintage Shirt",
     description:
       "A magical and enchanting t-shirt for men. This cotton top features glittery designs and pastel colors, perfect for making every day feel special and adding a touch of sparkle to ur wardrobe.",
-    price: 120,
+    price: 78,
     image: [p_img16],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1003,7 +1003,7 @@ export const products = [
     name: "Men's Business Casual Slacks",
     description:
       "Sophisticated trousers that seamlessly transition from office to after-hours events. These flat-front slacks offer a sleek silhouette and are crafted from a wrinkle-resistant fabric blend for all-day polish.",
-    price: 120,
+    price: 76,
     image: [p_img17],
     category: "Men-Shirt",
     subCategory: "Bottomwear",
@@ -1016,7 +1016,7 @@ export const products = [
     name: "Men's Business Casual Slacks",
     description:
       "Sophisticated trousers that seamlessly transition from office to after-hours events. These flat-front slacks offer a sleek silhouette and are crafted from a wrinkle-resistant fabric blend for all-day polish.",
-    price: 130,
+    price: 80,
     image: [p_img18, p_img22, p_img35, p_img44],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1042,7 +1042,7 @@ export const products = [
     name: "Sharp T-Shirt",
     description:
       "A magical and enchanting t-shirt for men. This cotton top features glittery designs and pastel colors, perfect for making every day feel special and adding a touch of sparkle to ur wardrobe.",
-    price: 110,
+    price: 75,
     image: [p_img20],
     category: "Men-Shirt",
     subCategory: "Bottomwear",
@@ -1081,7 +1081,7 @@ export const products = [
     name: "Retro Plaid Flannel Shirt",
     description:
       "A soft, cozy plaid flannel shirt inspired by classic 90s grunge fashion. Perfect for layering in cooler weather.",
-    price: 110,
+    price: 80,
     image: [p_img23],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1094,7 +1094,7 @@ export const products = [
     name: "Vintage Floral Button-Down",
     description:
       "A lightweight, retro-inspired floral shirt that brings a hint of the 70s. Ideal for casual outings or beach days.",
-    price: 110,
+    price: 85,
     image: [p_img24],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1120,7 +1120,7 @@ export const products = [
     name: "Vintage Denim Work Shirt",
     description:
       "Classic denim work shirt with rugged appeal, offering a lived-in look. Ideal for a casual, everyday style.",
-    price: 120,
+    price: 74,
     image: [p_img55],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1133,7 +1133,7 @@ export const products = [
     name: "Retro Argyle Knit Shirt",
     description:
       "A vintage-inspired argyle knit shirt that brings a touch of class to any casual outfit. Ideal for cooler weather.",
-    price: 120,
+    price: 68,
     image: [p_img56],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1146,7 +1146,7 @@ export const products = [
     name: "Men's Classic Denim Jacket",
     description:
       "A timeless outerwear piece that never goes out of style. This slim-fit denim jacket offers versatility and durability, perfect for layering over t-shirts or button-downs in cooler weather or as a stylish accent to any casual outfit.",
-    price: 120,
+    price: 70,
     image: [p_img59,p_img59_1],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1159,7 +1159,7 @@ export const products = [
     name: "Classic Cuban Collar Shirt",
     description:
       "A relaxed, Cuban collar shirt that brings a retro, laid-back vibe. Perfect for both summer days and nights out",
-    price: 120,
+    price: 85,
     image: [p_img57],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1172,7 +1172,7 @@ export const products = [
     name: "Men Classic Tee",
     description:
       "A magical and interactive t-shirt for men who love sparkle and surprise. This cotton top features reversible sequin designs that change color when brushed, providing endless entertainment and a unique way to express creativity.",
-    price: 120,
+    price: 70,
     image: [p_img30,p_img36],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1185,7 +1185,7 @@ export const products = [
     name: "Men's Tech-Smart Performance Tee",
     description:
       "A cutting-edge t-shirt designed for the modern, active man. This high-tech tee features moisture-wicking and odor-resistant properties, ensuring comfort and freshness during workouts or busy days on the go.",
-    price: 120,
+    price: 75,
     image: [p_img31,],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1198,7 +1198,7 @@ export const products = [
     name: "Men's Tech-Smart Performance Tee",
     description:
       "A cutting-edge t-shirt designed for the modern, active man. This high-tech tee features moisture-wicking and odor-resistant properties, ensuring comfort and freshness during workouts or busy days on the go.",
-    price: 120,
+    price: 80,
     image: [p_img32,p_img28],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1224,7 +1224,7 @@ export const products = [
     name: "Men's Business Casual Slacks",
     description:
       "Sophisticated trousers that seamlessly transition from office to after-hours events. These flat-front slacks offer a sleek silhouette and are crafted from a wrinkle-resistant fabric blend for all-day polish.",
-    price: 120,
+    price: 80,
     image: [p_img34],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1277,7 +1277,7 @@ export const products = [
     name: "Men's Premium Pima Cotton Tee",
     description:
       "A luxurious t-shirt crafted from high-quality Pima cotton. This premium tee offers exceptional softness and durability, making it a perfect choice for those who appreciate superior comfort and understated elegance in their everyday wear.",
-    price: 120,
+    price: 80,
     image: [p_img38],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1290,7 +1290,7 @@ export const products = [
     name: "Men's Casual Linen Blend Shirt",
     description:
       "A relaxed and breathable shirt perfect for warm weather. This linen blend shirt features a subtle texture and comfortable fit, ideal for creating effortlessly stylish looks for beach vacations or casual summer days.",
-    price: 120,
+    price: 80,
     image: [p_img61],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1303,7 +1303,7 @@ export const products = [
     name: "Men's Simple T-Shirt ",
     description:
       "A classic denim t-shirt with a worn-in look and feel. This vintage-inspired shirt features a comfortable fit and subtle distressing, perfect for adding a rugged touch to any casual outfit.",
-    price: 120,
+    price: 70,
     image: [p_img62],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1316,7 +1316,7 @@ export const products = [
     name: "Men's Moisture-Wicking Running Tee",
     description:
       "A high-performance t-shirt designed for runners and fitness enthusiasts. This lightweight tee features advanced moisture-wicking technology and strategically placed mesh panels for enhanced breathability during intense workouts.",
-    price: 120,
+    price: 70,
     image: [p_img41,p_img47,p_img48],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1329,7 +1329,7 @@ export const products = [
     name: "Boys' Glow-in-the-Dark Space Tee",
     description:
       "An exciting t-shirt for young space enthusiasts. This cotton tee features glow-in-the-dark prints of planets and stars, sparking imagination and adding a fun element to bedtime routines.",
-    price: 120,
+    price: 80,
     image: [p_img42],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -1368,7 +1368,7 @@ export const products = [
     name: "Men's Rugged Outdoor Denim Jacket",
     description:
       "A durable and stylish jacket built for outdoor adventures. This reinforced denim jacket features multiple utility pockets and a warm flannel lining, perfect for camping trips or cool evenings around the bonfire.",
-    price: 120,
+    price: 80,
     image: [p_img45],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1381,7 +1381,7 @@ export const products = [
     name: "Men's Classic Bomber Jacket",
     description:
       "A timeless outerwear piece that combines style and functionality. This bomber jacket features a sleek silhouette and ribbed cuffs and hem, perfect for adding a touch of cool to any casual or smart-casual outfit.",
-    price:120,
+    price:80,
     image: [p_img46],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1394,7 +1394,7 @@ export const products = [
     name: "Vintage Denim Work Shirt",
     description:
       "Classic denim work shirt with rugged appeal, offering a lived-in look. Ideal for a casual, everyday style.",
-    price: 120,
+    price: 70,
     image: [p_img59],
     category: "Men-Shirt",
     subCategory: "Bottomwear",
@@ -1407,7 +1407,7 @@ export const products = [
     name: "Men's Water-Resistant Windbreaker",
     description:
       "A lightweight and versatile jacket for unpredictable weather. This water-resistant windbreaker features a packable design and adjustable hood, making it perfect for outdoor activities or as an extra layer for changing conditions.",
-    price: 120,
+    price: 80,
     image: [p_img60],
     category: "Men-Shirt",
     subCategory: "Winterwear",
@@ -1433,7 +1433,7 @@ export const products = [
     name: "Classic Men's Senator Suit",
     description:
       "A refined mens senator suit perfect for formal occasions and cultural gatherings. Tailored for elegance and comfort.",
-    price: 120,
+    price: 60,
     image: [p_img50],
     category: "Men-Senator",
     subCategory: "Bottomwear",
@@ -1446,7 +1446,7 @@ export const products = [
     name: "Men's Casual Linen Blend Shirt",
     description:
       "",
-    price: 120,
+    price: 70,
     image: [p_img51],
     category: "Men-Shirt",
     subCategory: "Winterwear",
