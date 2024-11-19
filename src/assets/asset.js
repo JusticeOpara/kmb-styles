@@ -85,6 +85,7 @@ import razorpay_logo from "./razorpay_logo.png";
 import stripe_logo from "./stripe_logo.png";
 import cross_icon from "./cross_icon.png";
 import customer_ref from "./customer_ref.svg"
+import not_found from "./not_found.svg"
 import profile_pic from "./profile_pic.png"
 
 export const assets = {
@@ -107,7 +108,8 @@ export const assets = {
   stripe_logo,
   cross_icon,
   customer_ref,
-  profile_pic
+  profile_pic,
+  not_found
 };
 
 export const products1 = [

@@ -14,6 +14,7 @@ import Footer from './components/Footer';
 import SearchBar from './components/SearchBar';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import NotFoundPage from './pages/NotFoundPage';
 
 console.log(toast);
 
@@ -35,6 +36,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/place-order" element={<PlaceOrder />} />
         <Route path="/orders" element={<Orders />} />
+        <Route path="*" element={<NotFoundPage/>} />
       </Routes>
 
       <Footer />
