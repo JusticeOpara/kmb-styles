@@ -808,7 +808,7 @@ export const products = [
     name: "Men's Classic Crew Neck T-shirt",
     description:
       "A staple for any man's wardrobe, this pure cotton t-shirt offers both comfort and style. Its durable fabric and timeless design make it suitable for various occasions, from casual outings to relaxed office environments.",
-    price: 70,
+    price: 85,
     image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -860,7 +860,7 @@ export const products = [
     name: "Men Classic out fit",
     description:
       "A high-performance t-shirt designed for active men. Made from moisture-wicking cotton blend fabric, this tee keeps you cool and dry during workouts or sports activities, while maintaining a stylish look",
-    price: 120,
+    price: 75,
     image: [p_img6],
     category: "Men-Shirt",
     subCategory: "Topwear",
@@ -873,7 +873,7 @@ export const products = [
     name: "Men's Smart Casual Chinos",
     description:
       "Versatile and stylish trousers for the modern man. These tapered fit chinos offer a perfect balance of comfort and sophistication, suitable for both office environments and casual weekend outings.",
-    price: 110,
+    price: 75,
     image: [p_img5, p_img7, p_img8, p_img12],
     category: "Men-Shirt",
     subCategory: "Bottomwear",
@@ -912,7 +912,7 @@ export const products = [
     name: "Men's Classic Fit Dress Pants",
     description:
       "Sophisticated and comfortable trousers for the professional man. These flat-front pants offer a timeless look with a modern fit, perfect for office wear or formal occasions.",
-    price: 90,
+    price: 80,
     image: [p_img10],
     category: "Men-Shirt",
     subCategory: "Bottomwear",
