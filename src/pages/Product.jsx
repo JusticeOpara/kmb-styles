@@ -208,7 +208,7 @@ const Product = () => {
                     alt="customer"
                   />
                   <span className="font-sans text-black font-semibold">
-                    Justino Onyebuchi
+                    Justino Buchi
                   </span>
                 </div>
               </div>
